@@ -16,8 +16,9 @@ input {
 }
 
 .input_box:focus {
-    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.455);
+    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.354);
     outline: none;
+    transition: 0.2s;
 }
 
 .input_submit {
