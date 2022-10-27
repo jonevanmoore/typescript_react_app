@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import ClassBased from './components/ClassBased/ClassBased';
 import InputField from './components/InputField';
 import TodoList from './components/TodoList';
 import { Todo } from './model';
@@ -32,6 +33,7 @@ const App: React.FC = () => {
       <TodoList
         todos={todos}
         setTodos={setTodos} />
+      <ClassBased/>
     </div>
   );
 }
